@@ -1,0 +1,48 @@
+body{
+    margin:0px;
+    padding: 30px;
+    min-height: 50vh;
+    background-color: beige;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap:5rem;
+}
+
+header{
+    font-size: 3rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+}
+
+#book-list{
+    width:90vw;
+    padding: 1rem;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border: 2px solid red;
+    gap:2rem;
+}
+
+.book{
+    width:10rem;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid blue;
+    font-size: 25px;
+    flex: 0 0 auto;
+}
+
+.read-complete{
+    background-color: green;
+}
+
+.read-not{
+    background-color: red;
+    width: 100%;
+}
