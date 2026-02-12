@@ -46,3 +46,19 @@ header{
     background-color: red;
     width: 100%;
 }
+
+.add-book-button::after{
+    content: "Add New Book";
+    font-size: 36px;
+    color: blue;
+    background-color: yellowgreen;
+    border-radius: 5px;
+    border:2px solid grey;
+    padding: 5px 10px;
+}
+
+/* .add-book-button{
+    display: flex;
+} */
+
+
